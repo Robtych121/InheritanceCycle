@@ -1,14 +1,17 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# The Inheritance Cycle Website
 
+This project is for the User Centric Frontend Development Milestone Project By Code Institute
 
-Hi there! Welcome to AWS Cloud9!
+This website was created to present inforation about the book series "The Inheritance Cycle" written by Chrisopher Paolini. It will display information on the main characters as well as brief look at the 4 books that make up the series.
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+## UX
 
-Happy coding!
+## Features
+
+## Technologies Used
+
+## Testing
+
+## Deployment
+
+## Credits
