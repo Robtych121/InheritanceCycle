@@ -15,3 +15,6 @@ This website was created to present inforation about the book series "The Inheri
 ## Deployment
 
 ## Credits
+
+Homepage Banner
+https://wall.alphacoders.com/big.php?i=342383
