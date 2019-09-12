@@ -4,33 +4,6 @@
 
 /* Header Styles */
 
-#nav li {
-     float: left;
-     list-style: none;
-     margin-left: 20px;
-     font-size: 18px;
-     font-family: 'Montserrat', sans-serif;
-     color: #fff;
-}
-
-#nav li a {
-     color: #fff;
-     text-decoration: none;
-     font-size: 18px;
-     line-height: 20px;
-     transition: font-size 0.2s;
-}
-
-#nav li a:hover {
-    font-size: 20px;
-}
-
-#nav {
-    vertical-align: middle;
-    margin-top: 30px;
-    float: right;
-}
-
 header {
     height: 150px;
     color: #fff;
@@ -57,6 +30,24 @@ header h2 {
 
 /* Homepage Styles */
 
+.navbar-nav {
+ margin-top: 20px;   
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    transition: ease-in-out, 0.1s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    font-size: 20px;
+}
+
+
+/* Homepage Styles */
+
 .homepage-banner {
     text-align:  center;
     padding-top: 215px;
@@ -80,4 +71,44 @@ header h2 {
     background-color: #ffffff;
     border-color: #0015ad;
     color: #001fff;
+}
+
+/* Mobile Styles */
+
+@media screen and (max-width: 375px) {
+    header h1 {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    
+    .logo {
+        max-width: 60%;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+    }
+    
+    .nav-container {
+        max-width: 40%;
+        float: right;
+    }
+    
+    .navbar {
+        float: right;
+    }
+    
+    header h2 {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    
+    .navbar-nav {
+    margin-top: 20px;
+    float: right;
+    text-align: right;
+    }
+    
+    .navbar-toggler {
+        margin-left: 63px;
+        background-color: #2f2f2f;
+    }
 }
