@@ -13,6 +13,18 @@
      color: #fff;
 }
 
+#nav li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 20px;
+     transition: font-size 0.2s;
+}
+
+#nav li a:hover {
+    font-size: 20px;
+}
+
 #nav {
     vertical-align: middle;
     margin-top: 30px;
@@ -22,7 +34,7 @@
 header {
     height: 150px;
     color: #fff;
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.37);
 }
 
 header .row {
@@ -47,8 +59,7 @@ header h2 {
 
 .homepage-banner {
     text-align:  center;
-    margin-top: -150px;
-    padding-top: 150px;
+    padding-top: 215px;
     height: 500px;
     background: #f4f4f4 url("../images/inheritance.jpg") no-repeat fixed center;
     color: #fff;
@@ -60,6 +71,7 @@ header h2 {
     text-transform: uppercase;
     background-color: #001fff;
     border-color: #0015ad;
+    transition: color, 1s;
 }
 
 .homepage-banner .btn:hover {
