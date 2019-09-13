@@ -45,6 +45,21 @@ header h2 {
     font-size: 20px;
 }
 
+.fixed-top.scrolled {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.fixed-top.scrolled .nav-link {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.fixed-top.scrolled .nav-link:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
 
 /* Homepage Styles */
 
@@ -75,7 +90,11 @@ header h2 {
 
 /* Mobile Styles */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 991px) {
+    header {
+       height: 105px;
+    }
+    
     header h1 {
         font-size: 20px;
         padding-left: 15px;
@@ -102,13 +121,27 @@ header h2 {
     }
     
     .navbar-nav {
-    margin-top: 20px;
-    float: right;
-    text-align: right;
+        margin-top: 20px;
+        float: right;
+        text-align: right;
     }
     
     .navbar-toggler {
-        margin-left: 63px;
         background-color: #2f2f2f;
+        position: absolute;
+        right: 35px;
+        top: 13px;
+    }
+    
+    .navbar-collapse {
+        background-color: #2f2f2f;
+        padding-right: 13px;
+        padding-left: 13px;
+        position: absolute;
+        top: 57px;
+        right: 35px;
+    }
+    .fixed-top.scrolled .nav-link {
+      background-color: #2f2f2f;
     }
 }
