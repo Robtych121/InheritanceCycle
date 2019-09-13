@@ -9,6 +9,9 @@ This website was created to present inforation about the book series "The Inheri
 ## Features
 
 ## Technologies Used
+1. HTML
+2. CSS
+3. Bootstrap (v4.3.1)
 
 ## Testing
 
@@ -16,9 +19,8 @@ This website was created to present inforation about the book series "The Inheri
 
 ## Credits
 
-Homepage Banner
-https://wall.alphacoders.com/big.php?i=342383
+#### Media
+The Homepage Banner was found here : [image](https://wall.alphacoders.com/big.php?i=342383).
 
-
-Scroll effect for header 
-https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling
+#### Acknowledgements
+The dcroll effect used on the header(to make it go white when you scroll) was based off this Stack Overflow [post](https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling).
