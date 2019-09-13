@@ -18,12 +18,12 @@ header .row {
     padding-top: 30px;
 }
 
-header h1 {
+.site-title {
     font-size: 35px;
     font-family: 'Courgette', sans-serif;
 }
 
-header h2 {
+.site-subtitle {
     font-size: 20px;
     font-family: 'Courgette', sans-serif;
 }
@@ -128,7 +128,7 @@ footer ul li:hover {
        height: 105px;
     }
     
-    header h1 {
+    .site-title {
         font-size: 20px;
         padding-left: 15px;
     }
@@ -148,7 +148,7 @@ footer ul li:hover {
         float: right;
     }
     
-    header h2 {
+    .site-subtitle {
         font-size: 14px;
         padding-left: 15px;
     }
