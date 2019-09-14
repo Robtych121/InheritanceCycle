@@ -2,6 +2,34 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+/* General Styles */
+
+.btn {
+    border-radius: 0px;
+    text-transform: uppercase;
+    background-color: #001fff;
+    border-color: #0015ad;
+    transition: color, 1s;
+}
+
+.btn:hover {
+    border-radius: 0px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-color: #0015ad;
+    color: #001fff;
+}
+
+.nopadmargin {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f4f4f4 url("../images/paperbg.jpg") repeat fixed center;
+}
+
+
 /* Header Styles */
 
 header {
@@ -64,6 +92,10 @@ header .row {
 
 /* Homepage Styles */
 
+section {
+    padding-bottom: 20px;
+}
+
 .homepage-banner {
     text-align:  center;
     padding-top: 215px;
@@ -73,22 +105,35 @@ header .row {
     border-radius: 0;
 }
 
-.homepage-banner .btn {
-    border-radius: 0px;
-    text-transform: uppercase;
-    background-color: #001fff;
-    border-color: #0015ad;
-    transition: color, 1s;
-}
-
-.homepage-banner .btn:hover {
-    border-radius: 0px;
-    text-transform: uppercase;
+.homepagebox-left {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
     background-color: #ffffff;
-    border-color: #0015ad;
-    color: #001fff;
+    -webkit-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
 }
 
+.homepagebox-right {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
+    margin-bottom: 19px;
+}
+
+.homepagebox-right img {
+    max-width: 75%;
+}
+
+.homepagebox-left img {
+    padding-bottom: 10px;
+}
 
 
 /* Footer Styles */
@@ -178,5 +223,16 @@ footer ul li:hover {
     }
     .fixed-top.scrolled .nav-link {
       background-color: #2f2f2f;
+      color: #ffffff;
     }
+    .fixed-top.scrolled .nav-link:hover {
+      background-color: #2f2f2f;
+      color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .col-sm-9 {
+            padding: 0;
+        }
 }

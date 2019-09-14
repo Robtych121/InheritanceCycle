@@ -19,6 +19,9 @@ This website was created to present inforation about the book series "The Inheri
 
 ## Credits
 
+#### Content
+The content shown on this website was taken from the [Fandom Wiki](https://inheritance.fandom.com/wiki/) and edited for this website.
+
 #### Media
 The Homepage Banner was found here : [image](https://wall.alphacoders.com/big.php?i=342383).
 
