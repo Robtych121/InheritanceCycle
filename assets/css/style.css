@@ -26,7 +26,7 @@
 }
 
 body {
-    background: #f4f4f4 url("../images/paperbg.jpg") repeat fixed center;
+    background: #f4f4f4 url("../images/bg.jpg") repeat fixed center;
 }
 
 
@@ -134,7 +134,7 @@ section {
     text-align:  center;
     padding-top: 215px;
     height: 500px;
-    background: #f4f4f4 url("../images/inheritance.jpg") no-repeat fixed center;
+    background: #f4f4f4 url("../images/homepage_banner.jpg") no-repeat fixed center;
     color: #fff;
     border-radius: 0;
 }
