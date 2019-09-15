@@ -23,7 +23,10 @@ This website was created to present inforation about the book series "The Inheri
 The content shown on this website was taken from the [Fandom Wiki](https://inheritance.fandom.com/wiki/) and edited for this website.
 
 #### Media
-The Homepage Banner was found here : [image](https://wall.alphacoders.com/big.php?i=342383).
+Homepage Banner was found here : [image](https://wall.alphacoders.com/big.php?i=342383)
+
+All images (such as book covers/characters etc) are from the [Fandom Wiki](https://inheritance.fandom.com/wiki/) and have been edited to site the website
+
 
 #### Acknowledgements
 The dcroll effect used on the header(to make it go white when you scroll) was based off this Stack Overflow [post](https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling).
