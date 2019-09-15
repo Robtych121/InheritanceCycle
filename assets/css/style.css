@@ -29,6 +29,9 @@ body {
     background: #f4f4f4 url("../images/bg.jpg") repeat fixed center;
 }
 
+section {
+    padding-bottom: 20px;
+}
 
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -70,6 +73,16 @@ header {
     height: 150px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.37);
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 header .row {
@@ -118,17 +131,47 @@ header .row {
   color: #000;
 }
 
+.fixed-top.scrolled a {
+  color: #000;
+}
+
 .fixed-top.scrolled .nav-link:hover {
   background-color: #ffffff;
   color: #000;
 }
 
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #001fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    line-height: 50px;
+    color: #ffffff;
+    border: 2px solid #001fff;
+}
+
+footer ul li:hover {
+    color: #001fff;
+    background-color: #ffffff;
+}
 
 /* Homepage Styles */
-
-section {
-    padding-bottom: 20px;
-}
 
 .homepage-banner {
     text-align:  center;
@@ -169,39 +212,6 @@ section {
     padding-bottom: 10px;
 }
 
-
-/* Footer Styles */
-
-footer {
-    text-align: center;
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
-}
-
-footer ul {
-    padding: 0;
-}
-
-footer ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 15px;
-    background-color: #001fff;
-    height: 50px;
-    width: 50px;
-    border-radius: 100px;
-    line-height: 50px;
-    color: #ffffff;
-    border: 2px solid #001fff;
-}
-
-footer ul li:hover {
-    color: #001fff;
-    background-color: #ffffff;
-}
-
-
 /* Character Page Styles */
 
 .charbox {
@@ -220,6 +230,7 @@ footer ul li:hover {
 
 .charbox img {
     width: 100%;
+    padding-bottom: 10px;
 }
 
 
@@ -228,6 +239,16 @@ footer ul li:hover {
 @media screen and (max-width: 991px) {
     header {
        height: 105px;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    header a:hover {
+        color: #fff;
+        text-decoration: none;
     }
     
     .site-title {
@@ -276,22 +297,30 @@ footer ul li:hover {
         top: 57px;
         right: 35px;
     }
+    
     .fixed-top.scrolled .nav-link {
       background-color: #2f2f2f;
       color: #ffffff;
     }
+    
+    .fixed-top.scrolled a {
+      color: #000;
+    }
+    
     .fixed-top.scrolled .nav-link:hover {
       background-color: #2f2f2f;
       color: #ffffff;
     }
     
     .subpage {
-    max-width: 100%
-        
+        max-width: 100%;
+        margin-top: 120px;
     }
+    
     .charbox {
         max-width: 100%
     }
+    
     .charbox img {
         width: 50%;
         display: block;
@@ -302,8 +331,8 @@ footer ul li:hover {
 
 @media screen and (max-width: 575px) {
     .col-sm-9 {
-            padding: 0;
-        }
+        padding: 0;
+    }
     
     .charbox {
         max-width: 100%
