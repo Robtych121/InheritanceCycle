@@ -4,7 +4,7 @@ This project is for the User Centric Frontend Development Milestone Project By C
 
 This website was created to present inforation about the book series "The Inheritance Cycle" written by Chrisopher Paolini. It will display information on the main characters as well as brief look at the 4 books that make up the series.
 
-You can view this website via this [link](https://robtych121.github.io/InheritanceCycle/characters.html)
+You can view this website via this [link](https://robtych121.github.io/InheritanceCycle/)
 
 ## UX
 This website was designed for fans of the "The Inheritance Cycle" by Chrisopher Paolini so i wanted to keep the look and feel of the website close to the books, for example the blue buttons is a similar colour to the main characters dragon in the story.
