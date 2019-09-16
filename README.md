@@ -24,7 +24,17 @@ I would like to increate the amount of characters within the characters page and
 3. Bootstrap (v4.3.1)
 
 ## Testing
+I have achieved the user story for the fan by providing the following for them:
+* They are able to see the character information on the characters page with images, this also includes links to an external website with even more information
+* They are able to see a brief summary of each book from the stories page and images
+* The homepage is layed out with information of the author so that fans can see other works from the author.
+* The homepage also includes links to Amazon so people can purchase these easily
+ 
+All of the of the links have been tested and set to use the `target="_BLANK"` so that users won't be taken away from the website and can easily get back once they are done with the information.
 
+The Contact form has been tested to ensure that correct information is given. This was done on the email field. If you do not enter a invalid email is will show an error message and wont let you continue. If all fields are correct, no errors will be shown and an email will be sent.
+
+The website structure has been tested mostly within Chrome Developer Tools but has also been tested on Google Chrome For Android, Microsoft Edge
 
 ## Deployment
 This website is hosted using the Github pages, using the master branch. Because of this, everytime i push across changes using Git, the website is automatically updated without any additional input from myself. When creating the website, i had to ensure that the main file for the website was index.html otherwise browsers wouldnt be able to load it properly.
