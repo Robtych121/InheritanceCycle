@@ -249,6 +249,7 @@ footer ul li:hover {
     float: right;
     padding-left: 20px;
 }
+
 /* Mobile Styles */
 
 @media screen and (max-width: 991px) {
