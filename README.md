@@ -16,7 +16,7 @@ I created some Wireframes of each page (showing both desktop and mobile view). T
 ## Features
 The website uses some custom javaScript to change the colour of the header after you have started scrolling. 
 ### Features Left to Implement
-I would like to increate the amount of characters within the characters page and also provide a way of filtering the types (i.e show all human characters or show just dragon characters)
+I would like to increase the amount of characters within the characters page and also provide a way of filtering the types (i.e show all human characters or show just dragon characters)
 
 ## Technologies Used
 1. HTML
@@ -32,7 +32,7 @@ I have achieved the user story for the fan by providing the following for them:
  
 All of the of the links have been tested manually and set to use the `target="_BLANK"` so that users won't be taken away from the website and can easily get back once they are done with the information.
 
-The contact form has been tested to ensure that correct information is given. This was done on the email field. If you do not enter a invalid email is will show an error message and wont let you continue. If all fields are correct, no errors will be shown and an email will be sent.
+The contact form has been tested to ensure that correct information is given. This was done on the email field. If you do not enter a valid email, it will show an error message and wont let you continue. If all fields are correct, no errors will be shown and an email will be sent.
 
 The website structure has been tested mostly within Chrome Developer Tools but has also been tested on Google Chrome For Android, Microsoft Edge, Mozilla Firefox.
 
