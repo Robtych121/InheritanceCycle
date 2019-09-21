@@ -358,16 +358,20 @@ footer ul li:hover {
     .story-box p {
         display: inline-block;
     }
+    
 }
 
 /* General style fixes for small screen */
 
 @media screen and (max-width: 575px) {
-    .col-sm-9 {
-        padding: 0;
-    }
-    
     .char-box {
         max-width: 100%
     }
+}
+
+@media screen and (max-width: 767) {
+    .col-md-9 {
+        padding: 0;
+    }
+    
 }
