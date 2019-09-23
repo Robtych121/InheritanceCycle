@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-/* General Styles */
+/* General Styles - These styles are suited across multiple pages across the website*/
 
 .btn {
     border-radius: 0px;
@@ -39,7 +39,6 @@ h3, h4, h5, a {
 }
 
 a {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #001fff;
     transition: ease-in-out, 0.1s;
@@ -54,7 +53,7 @@ a:hover {
     margin-top: 175px;
     text-align: center;
 }
-
+/* Adds a small shadow effect to the content boxes */
 .box-shadows {
     -webkit-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.75);
@@ -327,7 +326,7 @@ footer ul li:hover {
       color: #ffffff;
     }
     
-    /* General mobile styles */
+    /* general mobile styles - these styles will be used across multiple pages */
     
     .sub-page {
         max-width: 100%;
