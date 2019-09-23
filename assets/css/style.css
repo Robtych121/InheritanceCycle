@@ -215,6 +215,10 @@ footer ul li:hover {
     padding-bottom: 10px;
 }
 
+.modal-box-image {
+    width: 100%;
+}
+
 /* Stories Styles */
 
 .story-box {
@@ -228,6 +232,27 @@ footer ul li:hover {
     float: right;
     padding-left: 20px;
 }
+
+
+.eragon-story-box {
+    background-color: #26316b; 
+    color: #e0c06d
+}
+
+.eldest-story-box {
+    background-color: #971c21;
+    color: #e0c06d
+}
+
+.brisingr-story-box {
+    background-color: #e0c06d;
+}
+
+.inheritance-story-box {
+    background-color: #005b51;
+    color: #e0c06d
+}
+
 
 /* Contact Styles */
 
